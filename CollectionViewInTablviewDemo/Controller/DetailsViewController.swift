@@ -12,14 +12,14 @@ class DetailsViewController: UIViewController {
     var data = String()
     
     @IBOutlet weak var lbl: UILabel!
-   
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-       lbl.text = data
+        
+        lbl.text = data
     }
     
-
+    
     
 }

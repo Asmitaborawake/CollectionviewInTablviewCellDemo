@@ -12,8 +12,6 @@ import Foundation
 class TableViewCell: UITableViewCell,UICollectionViewDelegate,UICollectionViewDataSource{
     
     
-
-    
     @IBOutlet weak var collectionView: UICollectionView!
     var nameArray = ["iOS","Flutter","React Native","Web","Anguler"]
     var imgArray  = ["img","download","download","download (1)","Canada-Flag-Free-Download-PNG.png"]
